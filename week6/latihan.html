@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title> Laman HTML Sesi 3 </title>
+<body style="background-color:#E5B9A8;">
+    <p style="font-family:'Courier New'">Create by</p>
+    <p style="font-family:'Courier New'"><strong>Najma Amira Mumtaz</strong></p>
+    <p style="font-family:'Courier New'"><strong>A11.2022.14708</strong></p>
+    <h1 style="font-family:'garamond';text-align:center;font-size:60px;color:#081a4a;">Hi Peeps!!</h1>
+    <h2 style="font-family:'garamond';text-align:center;font-size:30px;color:#081a4a;">Welcome to Ameerawr's page</h2>
+    <img src="ft1.jpeg" width="246" height="220">
+    <img src="ft2.jpeg" width="223" height="220">
+    <img src="ft3.jpeg" width="260" height="220">
+    <img src="ft4.jpeg" width="246" height="220">
+    <img src="ft5.jpeg" width="246" height="220">
+    <h3 style="font-family:'garamond';font-size:25px;color:#081a4a;"> My Daily Post </h3>
+    <p style="font-family:'garamond';font-size:20px;color:#081a4a;">I'm a really insecure person. Sometimes I hate myself and feel that I'm not good enough. This is a horrible way to live life, and I realize it kills my soul slowly. If you feel like that too, I suggest you to watch this video.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/togL51YXNXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="font-family:'garamond';font-size:20px;color:#081a4a;">You should listen to this music too!!</p>
+    <audio controls>
+        <source src="cara_bahagia.ogg" type="audio/ogg">
+        <source src="cara_bahagia.mpeg" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <p style="font-family:'garamond';font-size:20px;color:#081a4a;">Me and my friends on JHS graduation, miss u all so bad</p>
+    <div> 
+        <button onclick="playVid()">Play</button>
+        <button onclick="pauseVid()">Pause</button>
+        <br><br>
+        <video id="graduation_show" width="600">
+        <source src="graduation_show.ogg" type="video/ogg">
+        <source src="graduation_show.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+      </div> 
+      <script> 
+      var myVideo = document.getElementById("graduation_show"); 
+      function playVid() { 
+          myVideo.play();
+      }
+      function pauseVid() { 
+          myVideo.pause(); 
+      }
+      </script>
+    <h4 style="font-family:'garamond';font-size:25px;color:#081a4a;"> You can contact me here </h4>
+    <a href="https://wa.me/qr/JJXPJTR4CZPKO1"><img src="wa.jpg" width="40" height="40"></a>
+    <a href="https://instagram.com/najma.mmtz?igshid=YmMyMTA2M2Y="><img src="ig.jpg" width="40" height="40"></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnJntPGddSmkwrPSDmVSnfsvvvKRmWzPfskjbcwbpJbXngMWWvCWmqXjSZJkLvfQDkvjB"><img src="email.jpg" width="40" height="40"></a>
+</body>
+</head>
+</html>

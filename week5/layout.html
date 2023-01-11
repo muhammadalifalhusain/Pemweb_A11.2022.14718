@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="hus1.css">
+		<title>Layout</title>
+	</head>
+	<body background="background.jpg">
+		<header class="header">
+				<h2><center>MBOKE SQUAD</center></h2> 
+		</header>
+		<section>
+			<article class="article">
+				<h2><center>The Team</center></h2>
+				<p>Sekelompok teman main dari kelas 10-12.Team ini pertama kali bertemu waktu SMK.Dengan senang bermain bersama dan sharing cerita membuat team ini semakin solid. Sempat bentrok dengan kelas kelompok sebelah dikarenakan pertandingan futsal.Penuh canda dan tawa.</p>
+			</article>
+		</section>
+		<div class="nav">
+				<ul class="nav-ul">
+				<li class="li=nav"><a href="foto.html" class="a-navbar"><center>Foto Kebersamaan</a></li></center>
+				</ul>
+			</div>
+			<details>
+				<summary><b>Music andalan teman teman</summary></b>
+				<p><audio controls><source src="diary.mp3" type="audio/mpeg"></audio></p>
+			<details> 
+				<summary>Music2</summary><p><audio controls><source src="onekiss.mp3" type="audio/mpeg"></audio></p></details>
+			</details>
+			<p align="center">
+            <button onclick="durationVid()">duration</button> 
+            <button onclick="playVid()">playVid</button>
+            <button onclick="pauseVid()">pauseVid</button>
+            <button onclick="makefullscreen()">fullscreen</button>
+            <button onclick="makenormal()">normal</button>
+            <br></br>
+            <video id="video1" width="500">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+            </video>
+        </p> 
+        <script> 
+            var myVideo = document.getElementById("video1"); 
+
+           function  durationVid() { 
+                     myVideo.duration(); 
+           } 
+
+           function playVid() { 
+                    myVideo.play(); 
+           } 
+
+           function pauseVid() { 
+                    myVideo.pause();
+           } 
+
+           function makefullscreen() { 
+                    myVideo.width = 900; 
+           } 
+           function makenormal() { 
+                    myVideo.width = 500; 
+           } 
+        </script>
+				<p align="center"><b>Channel Youtube andalan teman teman</p></b>
+		<p align="center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fAZ1OTz5dXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+		<footer class="footer"><center>
+			Copyright <i>&copy;</i>MBOKE SQUAD
+		</footer></center>
+	
+
+
+		
+	</body>
+</html>

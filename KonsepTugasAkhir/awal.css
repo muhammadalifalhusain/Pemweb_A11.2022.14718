@@ -1,0 +1,83 @@
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+*{
+	margin: 100;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-image: url('new.png');
+	background-size: cover;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 150px;
+	cursor: pointer;
+	background-position: left top;
+	top: 100px;
+}
+.vback{
+	height: 90vh;
+	border: 4px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav{
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #ED9E27;
+	font-size: 13px;
+	margin-left: 30px;
+}
+nav ul li a:hover{
+		background-color: white;
+}
+.pt{
+	margin-left: 50px;
+}
+.teks1{
+	text-decoration: none;
+	color: #F5A55A;
+	margin-left: 400px;
+}
+.teks2{
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-left: 410px;
+}
+.teks3{
+	text-decoration: none;
+	color: #F5A55A;
+	margin-left: 400px;	
+}
+.teks4{
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-top: 350px;
+	margin-left: 520px;	
+}
+.settamu{
+	margin top: 10%;
+	margin-left: 32%;
+	height: 80px;
+}

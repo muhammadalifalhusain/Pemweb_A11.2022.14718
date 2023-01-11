@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body
+{
+	height: 80px;
+	width: 100;
+	font-style: inherit;
+}
+.nav
+{
+	background-color: white;
+
+}
+.article{
+	font-size: 30px;
+
+}
+.footer{
+	align-items: center;
+	font-size: 30px;
+	font-style: italic;
+padding-top: 50px;
+}

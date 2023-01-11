@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<title>UD. Al Husain FURNITURE</title>
+</head>
+<body>
+	<div class="banner">
+			<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="revisi.png"></a>
+            </div>
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="bedroom.html">BEDROOM</a></li>
+                    <li><a href="kitchen.html">KITCHEN</a></li>
+                    <li><a href="Dining.html">DINING</a></li>
+                    <li><a href="barkontak.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="media_button">
+                <button class="main_media_button" id="mediaButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+		<main >
+			<div class="content">
+			<h1>DESIGN YOUR HOUSE</h1>
+			<p>Filling the home with the beautiful creation of wood</p>
+			</div>
+			<footer>
+			<p>&copy UD.Alhusain FURNITURE</p>
+		</footer>	
+			</main>
+		
+	</div>
+	<script>
+        var mainListDiv = document.getElementById("mainListDiv"),
+            mediaButton = document.getElementById("mediaButton");
+
+        mediaButton.onclick = function() {
+
+            "use strict";
+
+            mainListDiv.classList.toggle("show_list");
+            mediaButton.classList.toggle("active");
+
+        };
+    </script>
+</body>
+</html>

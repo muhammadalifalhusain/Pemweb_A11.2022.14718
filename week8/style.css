@@ -1,0 +1,105 @@
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    
+    background: url(Desktop\ -\ 1.jpg) no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+    background-position-y: top;
+    background-color: #664444;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+section{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+nav{
+    background-color: #54412A;
+    margin-left: 400px;
+    width: 25%;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    padding: 0px;           
+    margin-top: 0px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 6px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(130, 74, 19);
+}
+
+.content
+{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+article h1 img{
+    position: relative;
+    z-index: 10vh;
+    top: 0px;
+    width: 890px;
+}
+
+article p{
+    position: absolute;
+    top:300px;
+    left: 150px;
+    font-size: 3vh;
+    width: 200px;
+    z-index: 1;
+    color: #ED9E27;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: #664444;
+    width: 100%;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.satu{
+    font-family: 'Times New Roman', Times, serif
+    color: blue;
+
+}
+.dua{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: green;
+
+}

@@ -1,0 +1,4 @@
+ukuran bingkai cover website jadi 1200x850
+simpan dengan format jpg 
+tampilkan dalaml code editor
+panggil nama file sesuai ekstensi
